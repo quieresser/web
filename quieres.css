@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body {
+    background-color: crimson;
+    text-align: center;
+}
+
+.button{
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(189, 16, 180);
+    border: 1px solid rgb(122, 26, 85);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 45px;
+    box-shadow: 0 0 5px 3px rgb(255, 255, 255); /*codigo para que tenga sombra al contorno*/
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+    background-color: rgb(189, 16, 180);
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 55px;
+    text-shadow: 4px 0 4px #000; /*codigo para que el texto tenga sombra al contorno*/
+}
+
+img.prin{
+    width: 800px;
+    }
+
+#btnNo{
+    background-image: url(./pensando.png);
+    background-repeat: no-repeat;
+    background-size: 80px 80px;
+}
+
+#btnSi{
+    background-image: url(./amor.png);
+    background-repeat: no-repeat;
+    background-size: 75px 75px;
+}
